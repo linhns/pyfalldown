@@ -41,6 +41,9 @@ dev = [
 requires = ["hatchling", "uv-dynamic-versioning"]
 build-backend = "hatchling.build"
 
+[project.gui-scripts]
+pyfalldown = "pyfalldown.__main__:main"
+
 [tool.hatch.version]
 source = "uv-dynamic-versioning"
 
